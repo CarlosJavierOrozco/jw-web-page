@@ -160,3 +160,49 @@ svg[class^="svg"]{
   cursor: pointer;
   text-decoration: none;
 }
+
+.center-small{
+  width: 1100px;
+  margin: auto;
+}
+
+.articles-recommendation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.recomendation-title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: .6em 0 .7em;
+
+}
+
+.recomendation-title a{
+  font-size: 1.1rem;
+  padding: .1em .5em;
+  color: white;
+}
+
+.recomendation-title a:hover{
+  background-color: rgb(17, 51, 105);
+  text-decoration: none;
+}
+
+
+.article-recommendation{
+  width: 31.5%;
+}
+
+
+.article-recommendation a:nth-child(2){
+  line-height: 2.5;
+  color:  rgb(17, 51, 105);
+  color: white;
+}
+
