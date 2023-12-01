@@ -1,0 +1,161 @@
+body{
+  font-family: 'Noto Sans SC', sans-serif;
+  margin-top: 0;
+  background-color: rgb(15, 15, 15);
+}
+
+*{
+  box-sizing: border-box;
+}
+.center{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+/*  background-color: rgb(48, 46, 46);*/
+  color: aliceblue;
+/*  flex-wrap: wrap;*/
+}
+
+.title{
+  padding: 1em .8em;
+  font-size: 1.5em;
+}
+.main-header img{
+  height: 130px;
+}
+
+.first-child{
+  display: flex;
+}
+
+.second-child{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+svg[class^="svg"]{
+  height: 30px;
+  width: 30px; 
+}
+
+.lang,
+.login{
+  display: flex;
+  padding: .5em 1em;
+}
+
+.lang:hover,
+.login:hover{
+  background-color: rgb(59, 59, 59);
+  cursor: pointer;
+}
+
+.form-search{
+  display: flex;
+  padding: .08em;
+  border: 1px solid rgb(236, 236, 233);
+  border-radius: .3em .2em;
+  margin: 0 1em;
+}
+
+.form-search input,
+.form-search button{
+  border: none;
+  background-color: transparent;
+}
+
+.form-search button{
+  border-left: 1px solid rgb(236, 236, 233);
+  display: flex;
+  margin: 0;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.form-search button:hover{
+  background-color: rgb(65, 62, 62);
+  font-weight: bolder;
+}
+
+
+.main-nav{
+  color: white;
+  background-color: rgba(32, 29, 28, 0.753);
+  display: flex;
+}
+
+
+.main-nav > :first-child{
+  margin-left: calc(130px + 1em);}
+
+.main-nav > * {
+  position: relative;
+  padding: 0 1.5em 0 1em;
+
+}
+
+
+.jw-home:hover {
+  cursor: pointer;
+}
+
+.main-nav  *:hover {
+  background-color: rgba(75, 68, 68, 0.959);
+  cursor: pointer;
+}
+
+.main-nav  *::before {
+  padding-right: .3em;
+  line-height: 1.5;
+}
+
+.hero-image{
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/502000203/univ/art/502000203_univ_lss_lg.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin-top: .1em;
+}
+
+.text-container{
+  background-color: rgba(0, 0, 0, 0.589);
+  height: 500px;
+  width: 44%;
+  margin-left: auto;
+  transform: skew(14deg);
+  position: absolute;
+  right: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 150px;
+  font-size: 1.3em;
+}
+
+.content{
+  transform: skew(-14deg);
+}
+
+.btn{
+  background-color: rgb(74, 109, 167);
+  padding: .2em .5em;
+  color: white;
+  font-weight: bold;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
