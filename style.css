@@ -27,6 +27,8 @@ body{
 }
 .main-header img{
   height: 130px;
+  position: relative;
+  z-index: 10;
 }
 
 .first-child{
@@ -124,7 +126,6 @@ svg[class^="svg"]{
   background-size: cover;
   position: relative;
   overflow: hidden;
-  margin-top: .1em;
 }
 
 .text-container{
