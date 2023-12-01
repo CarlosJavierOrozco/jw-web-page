@@ -322,3 +322,90 @@ svg[class^="svg"]{
   bottom: 10px;
   left: 10px;
 }
+
+.call-to-action{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+[class^="action"]{
+  width: 20%;
+}
+
+[class^="action"] img{
+  border-radius: 50%;
+}
+
+.call-to-action--text{
+  text-align: center;
+}
+
+.home-video{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-h2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+}
+
+.video-link{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: .5em;
+  font-size: 1.3em;
+
+}
+
+
+.video-image{
+  width: 1200px;
+  height: 400px;
+  margin-top: 1em;
+  background-image: url(https://cms-imgp.jw-cdn.org/img/p/502016517/univ/art/502016517_univ_pnr_lg.jpg)
+}
+
+.video-content{
+  position: relative;
+  top: -100px;
+  background-color: rgba(241, 241, 241, 0.9);
+  height: 280px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  padding: 1em;
+}
+
+.video-content p{
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.video-title{
+  font-size: 1.5em;
+}
+
+.video-title a{
+  color: inherit;
+  font-size: 1.5em;
+}
+
+
+.button-text a{
+  display: flex;
+  background-color: rgb(74, 109, 167);
+  padding: .2em .5em;
+  color: white;
+}
+
+.button-text a:hover{
+  background-color: rgb(33, 88, 151);
+}
