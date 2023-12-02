@@ -409,3 +409,39 @@ svg[class^="svg"]{
 .button-text a:hover{
   background-color: rgb(33, 88, 151);
 }
+
+.play{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid rgb(255, 255, 255);
+
+}
+
+.play-box{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.479);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.video-recomendation{
+  display: flex;
+  
+}
+
+.video-container{
+  position: relative;
+  padding: 0 10px;
+}
+
+.video span{
+  padding-left: 10px;
+}
+
